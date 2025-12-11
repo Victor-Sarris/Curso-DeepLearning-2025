@@ -159,5 +159,5 @@ Gráficos de Operação de Características e "Prever Rótulos":
 ---
 
 
-É isso, espero ter ajudado de alguma forma.
+É isso, espero ter ajudado de alguma forma. <br>
 2005 | Victor S. 🔱🪽
