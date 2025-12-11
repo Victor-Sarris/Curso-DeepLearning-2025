@@ -36,8 +36,6 @@ Segundo erro mais comum: Condições do ```cebelamini.py``` duplicadas:
 
 Seguindo todo esse passo a passo, acredito que dê tudo certo pra vcs familia. Tmj demais 🙂👊
 
-2005 | Victor S. 🔱🪽
-
 # Documentação do código
 
 <h2>1. Visão Geral do Projeto</h2>
@@ -115,5 +113,51 @@ Seguindo todo esse passo a passo, acredito que dê tudo certo pra vcs familia. T
     <li>Dataset: Instancia a classe CelebAMini para criar os iteradores de treino, validação e teste.</li>
     <li>Definição do Modelo: Baixa a ResNet-18 e modifica a camada linear final.</li>
     <li>Treinamento:</li>
-        
+    <ul>
+        <li>Itera por 10 épocas.</li>
+        <li>Calcula a perda (Loss) e atualiza os pesos (BackPropagation).</li>
+        <li>Calcula a acurácia de treino a cada época.</li>
+    </ul>
+    <li>Validação:</li>
+    <ul>
+        <li>Avalia o modelo no conjunto de validação ao fim de cada época para monitorar overfitting.</li>
+        <li>Salva os históricos de Loss e Acurácia.</li>
+    </ul>
+    <li>Testes e Métricas:</li>
+    <ul>
+        <li>Roda o modelo final no conjunto de teste (nunca visto antes).</li>
+        <li>Gera curva ROC e calcula AUC.</li>
+        <li>Plota a Matriz de Confusão.</li>
+        <li>Calcula Precisão, Recall e F1-Score.</li>
+    </ul>
 </ul>
+
+<h2>7. Resultados Esperados</h2>
+<p>Ao final da execução, o notebook gera:</p>
+
+<ul>
+    <li>Arquivo de pesos salvo: ```model_gender.pt```.</li>
+    <li>Gráfico de evolução de Loss (Treino vs Validação).</li>
+    <li>Gráfico de evolução de Acurácia (Treino vs Validação).</li>
+    <li>Relatório de métricas de classificação no conjunto de teste.</li>
+</ul>
+
+<h2>8. Gráficos gerados</h2>
+
+Gráficos de Treinamento:
+
+![alt text](<img/Gráfico - Treinamento e Validação de Acurácia por Épocas.png>)
+
+![alt text](<img/Gráfico - Treinamento e Validação de perda.png>)
+
+Gráficos de Operação de Características e "Prever Rótulos":
+
+![alt text](<img/Gráfico - Característica de Operação do Receptor.png>)
+
+![alt text](<img/Gráfico - Prever Rótulo.png>)
+
+---
+
+
+É isso, espero ter ajudado de alguma forma.
+2005 | Victor S. 🔱🪽
