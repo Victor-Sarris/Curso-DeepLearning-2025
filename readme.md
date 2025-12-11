@@ -13,6 +13,7 @@ Depois clique em "Upload" e em "Procurar":
 <h3>Depois de adicionar o projeto, algumas configurações devem ser feitas:</h3>
 
 Aponte para o local correto da pasta usando o drive:
+
 ![alt text](img/3.jpg)
 
 Navegue para o local correto:
@@ -65,14 +66,16 @@ Seguindo todo esse passo a passo, acredito que dê tudo certo pra vcs familia. T
     └── celeba-mini.csv             # Arquivo geral
 
 ```
-
+```python
 <p>Nota de Correção: O arquivo celebamini.py requer uma correção nas condicionais de carregamento (if/elif) para separar corretamente os conjuntos de validação e teste, como exemplifiquei acima.</p>
+
+```
 
 <h2>3. Pré-requisitos e Bibliotecas</h2>
 <p>As seguintes bibliotecas Python são necessárias para execução:</p>
 
 <ul>
-    <li>PyTorch (```torch```, ```torchvision```): Construção e treinamento da rede neural.</li>
+    <li>PyTorch (torch, torchvision): Construção e treinamento da rede neural.</li>
     <li>Pandas: Manipulação dos arquivos CSV de anotações.</li>
     <li>Pillow (PIL): Carregamento e processamento de imagens.</li>
     <li>Scikit-learn: Cálculo de métricas de avaliação (F1-score, ROC, Matriz de Confusão).</li>
@@ -88,9 +91,9 @@ Seguindo todo esse passo a passo, acredito que dê tudo certo pra vcs familia. T
     <li>Backbone: ResNet-18 (camadas convolucionais congeladas ou ajustadas, dependendo da configuração de pesos).</li>
     <li>Camada Final (Fully Connected): A última camada original da ResNet (que classifica 1000 classes) foi substituída para atender ao problema binário:</li>
 
-        ```python
-            model.fc = nn.Linear(num_features, 2) # Saída: 2 neurônios (Feminino, Masculino)
-        ```
+    ```python
+        model.fc = nn.Linear(num_features, 2) # Saída: 2 neurônios (Feminino, Masculino)
+    ```
 <li>Função de Perda: CrossEntropyLoss (adequada para classificação).</li>
     <li>Otimizador: Adam (Taxa de aprendizado: 0.0001).</li>
 </ul>
