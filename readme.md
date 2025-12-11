@@ -49,7 +49,7 @@ Seguindo todo esse passo a passo, acredito que dê tudo certo pra vcs familia. T
     <li>Ambiente: Google Colab.</li>
 </ul>
 
-<h2>Estrutura dos Arquivos e Dados</h2>
+<h2>2. Estrutura dos Arquivos e Dados</h2>
 
 <p>O projeto depende da seguinte organização de arquivos para funcionar corretamente:</p>
 
