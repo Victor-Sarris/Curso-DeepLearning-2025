@@ -10,6 +10,11 @@ Depois clique em "Upload" e em "Procurar":
 
 ![alt text](img/2.jpg)
 
+Observe que uma pasta nova foi criada, você deve fazer o upload via drive corretamente:
+
+![alt text](img/3.png)
+
+
 <h3>Depois de adicionar o projeto, algumas configurações devem ser feitas:</h3>
 
 Aponte para o local correto da pasta usando o drive:
