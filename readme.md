@@ -10,22 +10,19 @@ Depois clique em "Upload" e em "Procurar":
 
 ![alt text](img/2.jpg)
 
+Rode as duas primeiras celulas:
+
+![alt text](img/duas_celulas.png)
+
 Observe que uma pasta nova foi criada, você deve fazer o upload via drive corretamente:
 
 ![alt text](img/3.png)
 
+Verifique novamente o caminho para as pastas:
 
-<h3>Depois de adicionar o projeto, algumas configurações devem ser feitas:</h3>
+![alt text](<img/ultimo passo.png>)
 
-Aponte para o local correto da pasta usando o drive:
-
-![alt text](img/3.jpg)
-
-Navegue para o local correto:
-
-![alt text](img/4.jpg)
-![alt text](img/5.jpg)
-
+Fazendo esse passo a passo, o projeto está quase 100% para ser utilizado! 🥳⚡
 
 # ☢️❌ Algumas prevenções de erro: 
 
