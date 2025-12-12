@@ -65,10 +65,10 @@ Seguindo todo esse passo a passo, acredito que dê tudo certo pra vcs familia. T
 ├── celebamini.py                   # Script auxiliar para carregar o dataset (DataLoader)
 └── celeba-mini/                    # Pasta raiz dos dados
     ├── images/                     # Contém as imagens .jpg
-    ├── celeba-mini-train.csv       # Rótulos de treino
-    ├── celeba-mini-val.csv         # Rótulos de validação
-    ├── celeba-mini-test.csv        # Rótulos de teste
-    └── celeba-mini.csv             # Arquivo geral
+├── celeba-mini-train.csv           # Rótulos de treino
+├── celeba-mini-val.csv             # Rótulos de validação
+├── celeba-mini-test.csv            # Rótulos de teste
+└── celeba-mini.csv                 # Arquivo geral
 
 ```
 ```python
